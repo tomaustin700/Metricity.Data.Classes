@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metricity.Data.Entities
 {
-    internal class HandledException
+    public class HandledException
     {
         public int HandledExceptionId { get; set; }
 

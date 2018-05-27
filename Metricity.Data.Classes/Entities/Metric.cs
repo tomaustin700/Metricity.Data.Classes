@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metricity.Data.Entities
 {
-    internal class Metric
+    public class Metric
     { 
         public int MetricId { get; set; }
         public string ApplicationName { get; set; }

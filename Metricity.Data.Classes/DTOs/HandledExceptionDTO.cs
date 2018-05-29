@@ -12,9 +12,6 @@ namespace Metricity.Data.DTOs
         public string ExceptionType { get; set; }
         public DateTime Occurred { get; set; }
 
-        public HandledExceptionDTO()
-        {
-            Occurred = DateTime.Now;
-        }
+        
     }
 }

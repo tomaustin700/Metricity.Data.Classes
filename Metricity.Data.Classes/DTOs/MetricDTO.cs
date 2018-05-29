@@ -11,5 +11,7 @@ namespace Metricity.Data.DTOs
         public string ApplicationName { get; set; }
         public string MetricName { get; set; }
         public TimeSpan Duration { get; set; }
+        public DateTime Occurred { get; set; }
+
     }
 }

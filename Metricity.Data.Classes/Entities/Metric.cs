@@ -12,7 +12,6 @@ namespace Metricity.Data.Entities
         public string ApplicationName { get; set; }
         public string MetricName { get; set; }
         public TimeSpan Duration { get; set; }
-        public Guid APIKey { get; set; }
         public DateTime Occurred { get; set; }
         public Metric()
         {

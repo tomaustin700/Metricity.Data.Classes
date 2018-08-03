@@ -13,7 +13,6 @@ namespace Metricity.Data.Entities
         public string StackTrace { get; set; }
         public string ExceptionType { get; set; }
         public DateTime Occurred { get; set; }
-        public Guid APIKey { get; set; }
         public HandledException()
         {
             Occurred = DateTime.Now;
